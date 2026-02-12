@@ -1,0 +1,28 @@
+
+---
+
+## **Quick Start Commands**
+
+To create this entire project structure quickly:
+
+```bash
+# Create project
+mkdir task-management-tool && cd task-management-tool
+
+# Initialize git
+git init
+
+# Create directory structure
+mkdir -p client/src/{components/{auth,boards,cards,lists,common},hooks,store,utils,types} server/src/{models,controllers,routes,middleware,utils} .github/workflows
+
+# Copy all the files above into their respective locations
+
+# Install dependencies
+cd client && npm install
+cd ../server && npm install
+
+# Start development
+docker-compose up -d
+# OR
+cd server && npm run dev
+cd client && npm start
