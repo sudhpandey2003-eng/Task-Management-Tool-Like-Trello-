@@ -1,0 +1,81 @@
+task-management-tool/
+├── .github/
+│   ├── workflows/
+│   │   ├── ci.yml
+│   │   └── deploy.yml
+│   └── PULL_REQUEST_TEMPLATE.md
+├── client/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── auth/
+│   │   │   │   ├── Login.tsx
+│   │   │   │   └── Register.tsx
+│   │   │   ├── boards/
+│   │   │   │   ├── Board.tsx
+│   │   │   │   ├── BoardCard.tsx
+│   │   │   │   └── CreateBoardModal.tsx
+│   │   │   ├── cards/
+│   │   │   │   ├── Card.tsx
+│   │   │   │   ├── CardDetails.tsx
+│   │   │   │   └── CreateCardModal.tsx
+│   │   │   ├── lists/
+│   │   │   │   ├── List.tsx
+│   │   │   │   └── CreateListForm.tsx
+│   │   │   └── common/
+│   │   │       ├── Header.tsx
+│   │   │       ├── LoadingSpinner.tsx
+│   │   │       └── ErrorBoundary.tsx
+│   │   ├── hooks/
+│   │   │   ├── useAuth.ts
+│   │   │   ├── useBoard.ts
+│   │   │   └── useSocket.ts
+│   │   ├── store/
+│   │   │   ├── authStore.ts
+│   │   │   ├── boardStore.ts
+│   │   │   └── cardStore.ts
+│   │   ├── utils/
+│   │   │   ├── api.ts
+│   │   │   ├── constants.ts
+│   │   │   └── helpers.ts
+│   │   ├── types/
+│   │   │   └── index.ts
+│   │   ├── App.tsx
+│   │   ├── index.tsx
+│   │   └── index.css
+│   ├── package.json
+│   ├── tailwind.config.js
+│   ├── tsconfig.json
+│   └── README.md
+├── server/
+│   ├── src/
+│   │   ├── models/
+│   │   │   ├── User.ts
+│   │   │   ├── Board.ts
+│   │   │   ├── List.ts
+│   │   │   └── Card.ts
+│   │   ├── controllers/
+│   │   │   ├── authController.ts
+│   │   │   ├── boardController.ts
+│   │   │   └── cardController.ts
+│   │   ├── routes/
+│   │   │   ├── authRoutes.ts
+│   │   │   ├── boardRoutes.ts
+│   │   │   └── cardRoutes.ts
+│   │   ├── middleware/
+│   │   │   ├── auth.ts
+│   │   │   └── errorHandler.ts
+│   │   ├── utils/
+│   │   │   ├── database.ts
+│   │   │   └── socket.ts
+│   │   └── server.ts
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── .env.example
+├── docker-compose.yml
+├── .gitignore
+├── LICENSE
+├── CONTRIBUTING.md
+└── README.md
