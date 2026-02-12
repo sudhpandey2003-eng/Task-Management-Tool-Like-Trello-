@@ -1,0 +1,60 @@
+# TaskFlow - Modern Task Management Tool
+
+![TaskFlow Demo](https://via.placeholder.com/800x400.png?text=TaskFlow+Demo+GIF)
+
+A real-time collaborative task management application inspired by Trello. Built with React, Node.js, and Socket.io.
+
+##  Features
+
+### Core Features
+-  **User Authentication** - JWT-based auth with Google OAuth
+-  **Board Management** - Create, delete, customize boards
+-  **Lists & Cards** - Drag-and-drop functionality
+-  **Real-time Updates** - See changes instantly across clients
+-  **Collaboration** - Invite members, assign tasks
+-  **Card Details** - Labels, due dates, checklists, attachments
+-  **Comments & Activity** - @mentions, real-time comments
+
+### Advanced Features
+-  **Custom Backgrounds** - Unsplash integration
+-  **Notifications** - In-app and email
+-  **Board Analytics** - Activity insights
+-  **Full-text Search** - Find cards quickly
+-  **Responsive Design** - Works on all devices
+
+##  Tech Stack
+
+### Frontend
+- React 18 with TypeScript
+- Tailwind CSS for styling
+- dnd-kit for drag-and-drop
+- Zustand for state management
+- Socket.io-client for real-time
+- React Router v6
+- Vite as build tool
+
+### Backend
+- Node.js with Express
+- MongoDB with Mongoose
+- Socket.io for WebSockets
+- JWT for authentication
+- Multer for file uploads
+- Jest for testing
+
+### DevOps
+- Docker & Docker Compose
+- GitHub Actions for CI/CD
+- Nginx as reverse proxy
+- PM2 for process management
+
+##  Installation
+
+### Prerequisites
+- Node.js 18+
+- MongoDB 6+
+- npm or yarn
+
+### Clone the repository
+```bash
+git clone https://github.com/yourusername/task-management-tool.git
+cd task-management-tool
